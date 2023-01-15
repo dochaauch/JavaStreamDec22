@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 public class Task10 {
     public static void main(String[] args) {
         String r = "otiwuklf";
-        char letter = 'a';
+        char letter = 'u';
         int res = findIndexWithStream(r, letter);
         System.out.println(res);
     }

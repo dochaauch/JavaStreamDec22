@@ -30,7 +30,7 @@ public class Task01 {
         map.forEach((k, v) -> System.out.printf("%s : %s\n", k, v));
     }
 
-    private static void findCountInOneRow(String str) {
+    public static void findCountInOneRow(String str) {
         Stream.of(str.split(" "))
                 .collect(Collectors.toMap(Function.identity(), w -> 1L, Long::sum))
                 .entrySet()
